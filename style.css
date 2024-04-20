@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+}
+.first {
+    height: 75vh;
+}
+.top {
+    height: 100%;
+    background-image: url(img/coffe.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    /*position: center;*/
+}
+.logo {
+    width: 9vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #FF4B32;
+    font-family: "Open Sans", "sans-serif";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    margin-left: 26.5vw;
+    margin-top: 5vh;
+}
+.logo>p {
+    margin-left: 0.7vw;
+}
+.links {
+    width: 33.7vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 26.5vw;
+    margin-top: 5vh;
+    font-family: "Open Sans", "sans-serif";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+.top>.menu>.links>a {
+    text-decoration: none;
+    color: #fff;
+}
+.first>.top>.menu>.links>a:hover {
+    color: #FF4B32;
+    font-family: "Open Sans", "sans-serif";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+}
+.top-p {
+    color: #fff;
+    margin-top: 10.5vh;
+    margin-left: 10vw;
+}
+.top-p>p:nth-child(1) {
+    margin-bottom: 2.5vh;
+    font-family: "Josefin Sans", "sans-serif";
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+}
+.top-p>p:nth-child(2) {
+    margin-bottom: 4.7vh;
+    font-family: "Open Sans", "sans-serif";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+}
+button {
+    background: #FF4B32;
+    color: #fff;
+    width: 10.3vw;
+    height: 5.2vh;
+    margin-left: 10vw;
+    border: none;
+    border-radius: 5px;
+    font-family: "Open Sans", "sans-serif";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+}
+.top>.menu>.logo>p {
+    color: #FF4B32;
+}
+.second {
+    height: 100vh;
+}
+.best-offer {
+    margin: 13.5vh 10vw 13.5vh 10vw;
+}
+.best-offer-top-text>h1 {
+    font-family: "Josefin Sans", "sans-serif";
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 600;
+}
+.best-offer-top-text>p {
+    margin-top: 1.74vh;
+    font-family: "Open Sans", "sans-serif";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+.best-offer-cards {
+    margin-top: 5.2vw;
+    height: 52vh;
+    display: flex;
+    justify-content: space-between;
+}
+.best-offer-card-1>h3, .best-offer-card-2>h3, .best-offer-card-3>h3 {
+    color: #0C0D0C;
+    font-family: "Josefin Sans", "sans-serif";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+.best-offer-card-1>h2, .best-offer-card-2>h2, .best-offer-card-3>h2 {
+    color: #000;
+    font-family: "Josefin Sans", "sans-serif";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+}
+.best-offer-card-1>p, .best-offer-card-2>p, .best-offer-card-3>p {
+    color: #000;
+    font-family: "Open Sans", "sans-serif";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%
+}
+.best-offer-card-1, .best-offer-card-2, .best-offer-card-3{
+    height: 100%;
+    width: 21.5vw;
+    margin-bottom:12vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
